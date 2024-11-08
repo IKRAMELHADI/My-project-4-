@@ -15,7 +15,7 @@ public class PuzzlePiece : MonoBehaviour
         if(other.CompareTag("Player"))
         {
             //Ajouter la pièce à l'inventaire
-            inventory.CollectePiece(gameObject);
+            inventory.CollectPiece();
 
             //Désactiver la pièce de la scène pour montrer qu'elle est collectée
             gameObject.SetActive(false);

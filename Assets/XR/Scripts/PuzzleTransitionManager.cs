@@ -1,4 +1,5 @@
 using UnityEngine;
+using UnityEngine.Events;
 
 public class PuzzleTransitionManager : MonoBehaviour
 {
@@ -8,8 +9,8 @@ public class PuzzleTransitionManager : MonoBehaviour
 
     private void Start()
     {
-        // Abonne la méthode TeleportToPuzzleArea à un événement que PuzzleInventory déclenche
-        puzzleInventory.onAllPiecesCollected += TeleportToPuzzleArea;
+        // Abonne la méthode TeleportToPuzzleArea à un événement UnityEvent
+        puzzleInventory.onAllPiecesCollected.AddListener(TeleportToPuzzleArea);
     }
 
     private void TeleportToPuzzleArea()
@@ -19,7 +20,8 @@ public class PuzzleTransitionManager : MonoBehaviour
         player.transform.rotation = puzzleArea.rotation;
 
         // Optionnel : Désactive le script ou l'événement après la téléportation
-        puzzleInventory.onAllPiecesCollected -= TeleportToPuzzleArea;
+        puzzleInventory.onAllPiecesCollected.RemoveListener(TeleportToPuzzleArea);
         Debug.Log("Joueur téléporté à la zone du puzzle.");
     }
 }
+
