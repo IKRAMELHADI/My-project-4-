@@ -3896,7 +3896,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 65490899a94e84116adcbbd107b01022, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  linkedPuzzleManager: {fileID: 0}
+  linkedPuzzleManager: {fileID: 2025676352}
   CorrectPuzzlePiece: {fileID: 1742023088}
 --- !u!1001 &380506511
 PrefabInstance:
@@ -10412,7 +10412,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 65490899a94e84116adcbbd107b01022, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  linkedPuzzleManager: {fileID: 0}
+  linkedPuzzleManager: {fileID: 2025676352}
   CorrectPuzzlePiece: {fileID: 1313747958}
 --- !u!1001 &939259244
 PrefabInstance:
@@ -14204,7 +14204,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 65490899a94e84116adcbbd107b01022, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  linkedPuzzleManager: {fileID: 0}
+  linkedPuzzleManager: {fileID: 2025676352}
   CorrectPuzzlePiece: {fileID: 1138598719}
 --- !u!1001 &1193206704
 PrefabInstance:
@@ -14969,7 +14969,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 65490899a94e84116adcbbd107b01022, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  linkedPuzzleManager: {fileID: 0}
+  linkedPuzzleManager: {fileID: 2025676352}
   CorrectPuzzlePiece: {fileID: 1078834283}
 --- !u!1001 &1230284515
 PrefabInstance:
@@ -17680,7 +17680,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 65490899a94e84116adcbbd107b01022, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  linkedPuzzleManager: {fileID: 0}
+  linkedPuzzleManager: {fileID: 2025676352}
   CorrectPuzzlePiece: {fileID: 428148138}
 --- !u!1001 &1377992418
 PrefabInstance:
@@ -18749,7 +18749,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 65490899a94e84116adcbbd107b01022, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  linkedPuzzleManager: {fileID: 0}
+  linkedPuzzleManager: {fileID: 2025676352}
   CorrectPuzzlePiece: {fileID: 852893518}
 --- !u!1001 &1525176879
 PrefabInstance:
@@ -19023,7 +19023,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 65490899a94e84116adcbbd107b01022, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  linkedPuzzleManager: {fileID: 0}
+  linkedPuzzleManager: {fileID: 2025676352}
   CorrectPuzzlePiece: {fileID: 2128980265}
 --- !u!1 &1559749721
 GameObject:
@@ -21201,7 +21201,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 65490899a94e84116adcbbd107b01022, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  linkedPuzzleManager: {fileID: 0}
+  linkedPuzzleManager: {fileID: 2025676352}
   CorrectPuzzlePiece: {fileID: 1027027198}
 --- !u!1001 &1707857934
 PrefabInstance:
@@ -24207,7 +24207,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 65490899a94e84116adcbbd107b01022, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  linkedPuzzleManager: {fileID: 0}
+  linkedPuzzleManager: {fileID: 2025676352}
   CorrectPuzzlePiece: {fileID: 814377655}
 --- !u!1001 &2040772146
 PrefabInstance:
