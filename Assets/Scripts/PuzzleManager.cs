@@ -12,7 +12,7 @@ public class PuzzleManager : MonoBehaviour
 
     [Header("Completion Events")]
     public UnityEvent onPuzzleCompletion;  // Événement en cas de réussite
-    public GameObject winUI;
+   
 
 
 
@@ -30,9 +30,7 @@ public class PuzzleManager : MonoBehaviour
     {
         if (currentlyCompletedTasks >= numberOfTasksToComplete)
         {
-            onPuzzleCompletion.Invoke(); // Puzzle réussi ma mascotte va commencer à danser NORMALEMENT
-
-            winUI.SetActive(true);
+            onPuzzleCompletion.Invoke(); // Puzzle réussi
         }
     }
 
