@@ -1,15 +1,12 @@
-using System;
 using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.XR.Interaction.Toolkit;
 
-public class puzzlePiece : MonoBehaviour
+public class PuzzlePiece : MonoBehaviour
 {
     [SerializeField] private PuzzleManager linkedPuzzleManager;
     [SerializeField] private Transform CorrectPuzzlePiece;
     private XRSocketInteractor socket;
-
 
     private void Awake() => socket = GetComponent<XRSocketInteractor>();
 
@@ -28,13 +25,11 @@ public class puzzlePiece : MonoBehaviour
     private void ObjectSnapped(SelectEnterEventArgs arg0)
     {
         var snappedObjectName = arg0.interactableObject;
-        if(snappedObjectName.transform.name == CorrectPuzzlePiece.name)
+        if (snappedObjectName.transform.name == CorrectPuzzlePiece.name)
         {
             linkedPuzzleManager.CompletedPuzzleTask();
         }
-        
     }
-
 
     private void ObjectRemoved(SelectExitEventArgs arg0)
     {
@@ -43,6 +38,5 @@ public class puzzlePiece : MonoBehaviour
         {
             linkedPuzzleManager.PuzzlePieceRemoved();
         }
-
     }
 }
