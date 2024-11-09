@@ -3896,7 +3896,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 65490899a94e84116adcbbd107b01022, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  linkedPuzzleManager: {fileID: 2025676351}
+  linkedPuzzleManager: {fileID: 0}
   CorrectPuzzlePiece: {fileID: 1742023088}
 --- !u!1001 &380506511
 PrefabInstance:
@@ -10412,7 +10412,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 65490899a94e84116adcbbd107b01022, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  linkedPuzzleManager: {fileID: 2025676351}
+  linkedPuzzleManager: {fileID: 0}
   CorrectPuzzlePiece: {fileID: 1313747958}
 --- !u!1001 &939259244
 PrefabInstance:
@@ -11531,7 +11531,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 04c28fa380d1e472ead2ab0616751d86, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  menuUI: {fileID: 0}
+  menuUI: {fileID: 1676694080}
 --- !u!4 &1009410368
 Transform:
   m_ObjectHideFlags: 0
@@ -14204,7 +14204,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 65490899a94e84116adcbbd107b01022, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  linkedPuzzleManager: {fileID: 2025676351}
+  linkedPuzzleManager: {fileID: 0}
   CorrectPuzzlePiece: {fileID: 1138598719}
 --- !u!1001 &1193206704
 PrefabInstance:
@@ -14969,7 +14969,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 65490899a94e84116adcbbd107b01022, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  linkedPuzzleManager: {fileID: 2025676351}
+  linkedPuzzleManager: {fileID: 0}
   CorrectPuzzlePiece: {fileID: 1078834283}
 --- !u!1001 &1230284515
 PrefabInstance:
@@ -16217,7 +16217,7 @@ MonoBehaviour:
       m_Calls:
       - m_Target: {fileID: 1009410367}
         m_TargetAssemblyTypeName: MainMenuManager, Assembly-CSharp
-        m_MethodName: QuitGame
+        m_MethodName: StartGame
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -17680,7 +17680,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 65490899a94e84116adcbbd107b01022, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  linkedPuzzleManager: {fileID: 2025676351}
+  linkedPuzzleManager: {fileID: 0}
   CorrectPuzzlePiece: {fileID: 428148138}
 --- !u!1001 &1377992418
 PrefabInstance:
@@ -18749,7 +18749,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 65490899a94e84116adcbbd107b01022, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  linkedPuzzleManager: {fileID: 2025676351}
+  linkedPuzzleManager: {fileID: 0}
   CorrectPuzzlePiece: {fileID: 852893518}
 --- !u!1001 &1525176879
 PrefabInstance:
@@ -19023,7 +19023,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 65490899a94e84116adcbbd107b01022, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  linkedPuzzleManager: {fileID: 2025676351}
+  linkedPuzzleManager: {fileID: 0}
   CorrectPuzzlePiece: {fileID: 2128980265}
 --- !u!1 &1559749721
 GameObject:
@@ -21201,7 +21201,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 65490899a94e84116adcbbd107b01022, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  linkedPuzzleManager: {fileID: 2025676351}
+  linkedPuzzleManager: {fileID: 0}
   CorrectPuzzlePiece: {fileID: 1027027198}
 --- !u!1001 &1707857934
 PrefabInstance:
@@ -23645,9 +23645,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 2025676350}
-  - component: {fileID: 2025676351}
   - component: {fileID: 2025676352}
-  - component: {fileID: 2025676353}
   m_Layer: 0
   m_Name: Puzzle
   m_TagString: Untagged
@@ -23689,7 +23687,7 @@ Transform:
   - {fileID: 1375124292}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &2025676351
+--- !u!114 &2025676352
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -23709,35 +23707,6 @@ MonoBehaviour:
       - m_Target: {fileID: 171747678}
         m_TargetAssemblyTypeName: UnityEngine.Animator, UnityEngine
         m_MethodName: SetTrigger
-        m_Mode: 3
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
---- !u!114 &2025676352
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2025676349}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 0e60a16510279421c966d9074cb5f1f2, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  numberOfTasksToComplete: 0
-  currentlyCompletedTasks: 0
-  onPuzzleCompletion:
-    m_PersistentCalls:
-      m_Calls:
-      - m_Target: {fileID: 171747678}
-        m_TargetAssemblyTypeName: UnityEngine.Animator, UnityEngine
-        m_MethodName: SetTrigger
         m_Mode: 5
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -23747,23 +23716,6 @@ MonoBehaviour:
           m_StringArgument: Activate
           m_BoolArgument: 0
         m_CallState: 2
---- !u!114 &2025676353
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2025676349}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 0e60a16510279421c966d9074cb5f1f2, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  numberOfTasksToComplete: 0
-  currentlyCompletedTasks: 0
-  onPuzzleCompletion:
-    m_PersistentCalls:
-      m_Calls: []
 --- !u!1001 &2025820567
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -23927,7 +23879,7 @@ MonoBehaviour:
       m_Calls:
       - m_Target: {fileID: 1009410367}
         m_TargetAssemblyTypeName: MainMenuManager, Assembly-CSharp
-        m_MethodName: StartGame
+        m_MethodName: QuitGame
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -24255,7 +24207,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 65490899a94e84116adcbbd107b01022, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  linkedPuzzleManager: {fileID: 2025676351}
+  linkedPuzzleManager: {fileID: 0}
   CorrectPuzzlePiece: {fileID: 814377655}
 --- !u!1001 &2040772146
 PrefabInstance:
