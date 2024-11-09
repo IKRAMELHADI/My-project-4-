@@ -3896,7 +3896,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 65490899a94e84116adcbbd107b01022, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  linkedPuzzleManager: {fileID: 2025676351}
+  linkedPuzzleManager: {fileID: 0}
   CorrectPuzzlePiece: {fileID: 1742023088}
 --- !u!1001 &380506511
 PrefabInstance:
@@ -8711,7 +8711,7 @@ Transform:
   m_GameObject: {fileID: 814377654}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: -0.7071068, z: 0, w: 0.7071068}
-  m_LocalPosition: {x: -13.48, y: -2.654, z: 5.91}
+  m_LocalPosition: {x: -59.9, y: -3.07, z: 5.91}
   m_LocalScale: {x: 0.05, y: 0.5, z: 0.5}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -9364,7 +9364,7 @@ Transform:
   m_GameObject: {fileID: 852893517}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: -0.7071068, z: 0, w: 0.7071068}
-  m_LocalPosition: {x: -69.27, y: -2.789, z: -11.45}
+  m_LocalPosition: {x: -69.27, y: -2.789, z: -7.8}
   m_LocalScale: {x: 0.05, y: 0.5, z: 0.5}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -10412,7 +10412,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 65490899a94e84116adcbbd107b01022, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  linkedPuzzleManager: {fileID: 2025676351}
+  linkedPuzzleManager: {fileID: 0}
   CorrectPuzzlePiece: {fileID: 1313747958}
 --- !u!1001 &939259244
 PrefabInstance:
@@ -10784,6 +10784,140 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 8730119249068889063, guid: 89364a38eefe93d4495fa803300fc501, type: 3}
   m_PrefabInstance: {fileID: 953931270}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &956021980
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 956021981}
+  - component: {fileID: 956021983}
+  - component: {fileID: 956021982}
+  m_Layer: 5
+  m_Name: winUI
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 0
+--- !u!224 &956021981
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 956021980}
+  m_LocalRotation: {x: -0, y: -0.36621016, z: -0, w: 0.93053216}
+  m_LocalPosition: {x: 0, y: 0, z: 9.26}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 1676694084}
+  m_LocalEulerAnglesHint: {x: 0, y: -42.964, z: 0}
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchoredPosition: {x: -12.49, y: -1.04}
+  m_SizeDelta: {x: 10.2238, y: 1.5355}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &956021982
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 956021980}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f4688fdb7df04437aeb418b961361dc5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_RaycastTarget: 1
+  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
+  m_Maskable: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_text: "Congrats ! U won \n"
+  m_isRightToLeft: 0
+  m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_fontSharedMaterials: []
+  m_fontMaterial: {fileID: 0}
+  m_fontMaterials: []
+  m_fontColor32:
+    serializedVersion: 2
+    rgba: 4279566326
+  m_fontColor: {r: 0.9658306, g: 1, b: 0.08018869, a: 1}
+  m_enableVertexGradient: 0
+  m_colorMode: 3
+  m_fontColorGradient:
+    topLeft: {r: 1, g: 1, b: 1, a: 1}
+    topRight: {r: 1, g: 1, b: 1, a: 1}
+    bottomLeft: {r: 1, g: 1, b: 1, a: 1}
+    bottomRight: {r: 1, g: 1, b: 1, a: 1}
+  m_fontColorGradientPreset: {fileID: 0}
+  m_spriteAsset: {fileID: 0}
+  m_tintAllSprites: 0
+  m_StyleSheet: {fileID: 0}
+  m_TextStyleHashCode: -1183493901
+  m_overrideHtmlColors: 0
+  m_faceColor:
+    serializedVersion: 2
+    rgba: 4294967295
+  m_fontSize: 1
+  m_fontSizeBase: 1
+  m_fontWeight: 400
+  m_enableAutoSizing: 0
+  m_fontSizeMin: 18
+  m_fontSizeMax: 72
+  m_fontStyle: 1
+  m_HorizontalAlignment: 1
+  m_VerticalAlignment: 256
+  m_textAlignment: 65535
+  m_characterSpacing: 0
+  m_wordSpacing: 0
+  m_lineSpacing: 0
+  m_lineSpacingMax: 0
+  m_paragraphSpacing: 0
+  m_charWidthMaxAdj: 0
+  m_enableWordWrapping: 1
+  m_wordWrappingRatios: 0.4
+  m_overflowMode: 0
+  m_linkedTextComponent: {fileID: 0}
+  parentLinkedComponent: {fileID: 0}
+  m_enableKerning: 1
+  m_enableExtraPadding: 0
+  checkPaddingRequired: 0
+  m_isRichText: 1
+  m_parseCtrlCharacters: 1
+  m_isOrthographic: 1
+  m_isCullingEnabled: 0
+  m_horizontalMapping: 0
+  m_verticalMapping: 0
+  m_uvLineOffset: 0
+  m_geometrySortingOrder: 0
+  m_IsTextObjectScaleStatic: 0
+  m_VertexBufferAutoSizeReduction: 0
+  m_useMaxVisibleDescender: 1
+  m_pageToDisplay: 1
+  m_margin: {x: 0, y: 0, z: 0.63228154, w: 0}
+  m_isUsingLegacyAnimationComponent: 0
+  m_isVolumetricText: 0
+  m_hasFontAssetChanged: 0
+  m_baseMaterial: {fileID: 0}
+  m_maskOffset: {x: 0, y: 0, z: 0, w: 0}
+--- !u!222 &956021983
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 956021980}
+  m_CullTransparentMesh: 1
 --- !u!1001 &964295840
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -13369,7 +13503,7 @@ Transform:
   m_GameObject: {fileID: 1138598718}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: -0.7071068, z: 0, w: 0.7071068}
-  m_LocalPosition: {x: -25.22, y: -3.13, z: -6.29}
+  m_LocalPosition: {x: -55.2, y: -3.22, z: -6.29}
   m_LocalScale: {x: 0.05, y: 0.5, z: 0.5}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -14204,7 +14338,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 65490899a94e84116adcbbd107b01022, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  linkedPuzzleManager: {fileID: 2025676351}
+  linkedPuzzleManager: {fileID: 0}
   CorrectPuzzlePiece: {fileID: 1138598719}
 --- !u!1001 &1193206704
 PrefabInstance:
@@ -14969,7 +15103,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 65490899a94e84116adcbbd107b01022, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  linkedPuzzleManager: {fileID: 2025676351}
+  linkedPuzzleManager: {fileID: 0}
   CorrectPuzzlePiece: {fileID: 1078834283}
 --- !u!1001 &1230284515
 PrefabInstance:
@@ -16439,7 +16573,7 @@ Transform:
   m_GameObject: {fileID: 1313747957}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: -0.7071068, z: 0, w: 0.7071068}
-  m_LocalPosition: {x: -27.83, y: -2.9, z: 21.5}
+  m_LocalPosition: {x: -57.8, y: -3, z: 21.5}
   m_LocalScale: {x: 0.05, y: 0.5, z: 0.5}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -17680,7 +17814,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 65490899a94e84116adcbbd107b01022, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  linkedPuzzleManager: {fileID: 2025676351}
+  linkedPuzzleManager: {fileID: 0}
   CorrectPuzzlePiece: {fileID: 428148138}
 --- !u!1001 &1377992418
 PrefabInstance:
@@ -18749,7 +18883,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 65490899a94e84116adcbbd107b01022, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  linkedPuzzleManager: {fileID: 2025676351}
+  linkedPuzzleManager: {fileID: 0}
   CorrectPuzzlePiece: {fileID: 852893518}
 --- !u!1001 &1525176879
 PrefabInstance:
@@ -19023,7 +19157,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 65490899a94e84116adcbbd107b01022, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  linkedPuzzleManager: {fileID: 2025676351}
+  linkedPuzzleManager: {fileID: 0}
   CorrectPuzzlePiece: {fileID: 2128980265}
 --- !u!1 &1559749721
 GameObject:
@@ -20844,6 +20978,7 @@ RectTransform:
   - {fileID: 181620088}
   - {fileID: 2031128152}
   - {fileID: 1278583559}
+  - {fileID: 956021981}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0.454, z: 0}
   m_AnchorMin: {x: 0, y: 0}
@@ -21201,7 +21336,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 65490899a94e84116adcbbd107b01022, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  linkedPuzzleManager: {fileID: 2025676351}
+  linkedPuzzleManager: {fileID: 0}
   CorrectPuzzlePiece: {fileID: 1027027198}
 --- !u!1001 &1707857934
 PrefabInstance:
@@ -21381,7 +21516,7 @@ Transform:
   m_GameObject: {fileID: 1742023087}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: -0.7071068, z: 0, w: 0.7071068}
-  m_LocalPosition: {x: -7.58, y: -2.84, z: -2.22}
+  m_LocalPosition: {x: -54.8, y: -3.25, z: -2.22}
   m_LocalScale: {x: 0.05, y: 0.5, z: 0.5}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -23645,8 +23780,6 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 2025676350}
-  - component: {fileID: 2025676351}
-  - component: {fileID: 2025676352}
   - component: {fileID: 2025676353}
   m_Layer: 0
   m_Name: Puzzle
@@ -23689,7 +23822,7 @@ Transform:
   - {fileID: 1375124292}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &2025676351
+--- !u!114 &2025676353
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -23718,52 +23851,7 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
---- !u!114 &2025676352
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2025676349}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 0e60a16510279421c966d9074cb5f1f2, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  numberOfTasksToComplete: 0
-  currentlyCompletedTasks: 0
-  onPuzzleCompletion:
-    m_PersistentCalls:
-      m_Calls:
-      - m_Target: {fileID: 171747678}
-        m_TargetAssemblyTypeName: UnityEngine.Animator, UnityEngine
-        m_MethodName: SetTrigger
-        m_Mode: 5
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: Activate
-          m_BoolArgument: 0
-        m_CallState: 2
---- !u!114 &2025676353
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2025676349}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 0e60a16510279421c966d9074cb5f1f2, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  numberOfTasksToComplete: 0
-  currentlyCompletedTasks: 0
-  onPuzzleCompletion:
-    m_PersistentCalls:
-      m_Calls: []
+  winUI: {fileID: 956021980}
 --- !u!1001 &2025820567
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -24255,7 +24343,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 65490899a94e84116adcbbd107b01022, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  linkedPuzzleManager: {fileID: 2025676351}
+  linkedPuzzleManager: {fileID: 0}
   CorrectPuzzlePiece: {fileID: 814377655}
 --- !u!1001 &2040772146
 PrefabInstance:
@@ -26070,7 +26158,7 @@ Transform:
   m_GameObject: {fileID: 2128980264}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: -0.7071068, z: 0, w: 0.7071068}
-  m_LocalPosition: {x: -73.724, y: -2.857, z: 7.66}
+  m_LocalPosition: {x: -73.724, y: -2.857, z: 4.6}
   m_LocalScale: {x: 0.05, y: 0.5, z: 0.5}
   m_ConstrainProportionsScale: 0
   m_Children:
