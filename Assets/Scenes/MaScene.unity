@@ -11531,12 +11531,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 04c28fa380d1e472ead2ab0616751d86, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-<<<<<<< Updated upstream
   menuUI: {fileID: 0}
-=======
-  menuUI: {fileID: 1676694080}
-  puzzleManager: {fileID: 2025676352}
->>>>>>> Stashed changes
 --- !u!4 &1009410368
 Transform:
   m_ObjectHideFlags: 0
