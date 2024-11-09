@@ -2,19 +2,21 @@ using UnityEngine;
 
 public class MainMenuManager : MonoBehaviour
 {
-    public GameObject menuUI; // Référence au menu principal
-    public PuzzleManager puzzleManager; // Référence au PuzzleManager pour démarrer le minuteur
+    public GameObject menuUI; // Référence au GameObject du menu UI
+    
 
-    // Méthode appelée lors du clic sur "Start"
+    // Cette méthode est appelée lorsque le joueur clique sur "Play"
     public void StartGame()
     {
-        menuUI.SetActive(false); // Cache le menu principal
-        puzzleManager.StartPuzzleTimer(); // Démarre le minuteur du puzzle
+        // Masquer le menu et afficher le jeu
+        menuUI.SetActive(false);
+        
     }
 
-    // Méthode appelée lors du clic sur "Quit"
+    // Cette méthode est appelée lorsque le joueur clique sur "Quit"
     public void QuitGame()
     {
+        // Quitter l'application. Cela ne fonctionne que dans la version compilée du jeu
         Application.Quit();
 
         // Pour tester dans l'éditeur Unity
@@ -23,3 +25,4 @@ public class MainMenuManager : MonoBehaviour
 #endif
     }
 }
+
